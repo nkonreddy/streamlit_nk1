@@ -27,9 +27,9 @@ with st.container():
     st.markdown('<p class="normal-font">We\'re a passionate team wanted to learn and advance in Python to be more effective and efficient.<br> <a href="https://streamlit.io/"> Learn more about Streamlit.', unsafe_allow_html=True)
 #st.write("We're a passionate team wanted to learn and advance in Python to be more effective and efficient.")
 #st.write("[Learn more >] (https://streamlit.io)")
-with st.container():
-    st.write("---")
-    left_column, right_column = st.column(2)
-    with left_column:
-        st.header("What I do")
-        st.write("##")
+#with st.container():
+    #st.write("---")
+    #left_column, right_column = st.column(2)
+    # with left_column:
+    #     st.header("What I do")
+    #     st.write("##")
