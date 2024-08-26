@@ -1,7 +1,8 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="My Webpage", page_icon=":globe_showing_asia_australia:", layout=wide)
+st.set_page_config(page_title="My Webpage", page_icon=":globe_showing_asia_australia:", layout="wide")
+
 
 # .... Header Section .....
 st.subheader(" Hi, I am Naveen :folded_hands:")
