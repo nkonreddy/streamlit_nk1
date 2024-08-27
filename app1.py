@@ -1,5 +1,5 @@
 # Build a website in 12 minutes using Python and Streamlit: https://www.youtube.com/watch?v=VqgUkExPvLY
-from PIL imort Image
+from PIL import Image
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -16,8 +16,8 @@ def load_lottieurl(url):
 
 
 #...Load Assets ...
-lottie_coding = load_lottieurl("https://lottie.host/edcad0c9-6e21-4e9c-a1e8-82a2efaceefe/BXGDfV5g1u.json")
-#lottie_coding = "https://lottie.host/71d41eef-5a9d-41b4-b232-4960abb94a86/Uj3l65BbJf.json"
+#lottie_coding = load_lottieurl("https://lottie.host/edcad0c9-6e21-4e9c-a1e8-82a2efaceefe/BXGDfV5g1u.json")
+lottie_coding = "https://lottie.host/71d41eef-5a9d-41b4-b232-4960abb94a86/Uj3l65BbJf.json"
 #lottie_coding = "https://lottie.host/3a02227c-ba58-4ce6-a87a-6a81acce8828/9k1zbdwoE9.json"
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
@@ -58,7 +58,7 @@ with right_column:
 with st.container():
     st.write("---")
     st.header("My Projects")
-    st.write(##)
+    st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
         #insert image
@@ -73,3 +73,19 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://youtube/TXSOitGoINE)")
+
+
+with st.container():
+
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        #insert image
+        st.image(img_contact_form)
+    with text_column:
+        st.subheader("How to Add A Contact Form to your streamlit App")
+        st.write(
+            """
+            Want to adda contact form to your Streamlit Website?
+            In this video, I'm going to show youhow to implementa contact form to your streamlit App using
+            """
+        )
