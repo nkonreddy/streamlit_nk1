@@ -1,3 +1,5 @@
+# Build a website in 12 minutes using Python and Streamlit: https://www.youtube.com/watch?v=VqgUkExPvLY
+from PIL imort Image
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -16,7 +18,9 @@ def load_lottieurl(url):
 #...Load Assets ...
 lottie_coding = load_lottieurl("https://lottie.host/edcad0c9-6e21-4e9c-a1e8-82a2efaceefe/BXGDfV5g1u.json")
 #lottie_coding = "https://lottie.host/71d41eef-5a9d-41b4-b232-4960abb94a86/Uj3l65BbJf.json"
-
+#lottie_coding = "https://lottie.host/3a02227c-ba58-4ce6-a87a-6a81acce8828/9k1zbdwoE9.json"
+img_contact_form = Image.open("images/yt_contact_form.png")
+img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # .... Header Section .....
 with st.container():
@@ -48,5 +52,24 @@ with st.container():
 
 with right_column:
     st.lottie(lottie_coding, height=300, key="coding") 
-           
+
         
+#....Projects....
+with st.container():
+    st.write("---")
+    st.header("My Projects")
+    st.write(##)
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        #insert image
+        st.image(img_lottie_animation)
+    with text_column:
+        st.subheader("Integrate Lottie Animations Inside your Streamlit App")
+        st.write(
+            """
+            Learn how to ue Lottie files in Streamlit!
+            Animationmake our web app more engaging and fun, and Lottie Files are the easiest way to do 
+            In this tutorial, I"will show you exactly how to do it
+            """
+        )
+        st.markdown("[Watch Video...](https://youtube/TXSOitGoINE)")
