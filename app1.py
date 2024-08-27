@@ -20,15 +20,17 @@ with st.container():
         st.header("What I Do")
         st.write("##")
         st.write(
-            ...
+            """
             On my YouTube channel I am creating tutorials for peolple who:
-            . are looking for a way to leverage the power of Python in their day to-day work.
-            .are struggling with repetitive tasks in Excel and are looking for a way to use python and VBA
-            .want to learn Data Analysis & Data Science to perform meaningful and impactful Analysis
-            .and working with Excel and found themelves thinking, " there has to be a better way"
+            - are looking for a way to leverage the power of Python in their day to-day work.
+            - are struggling with repetitive tasks in Excel and are looking for a way to use python and VBA
+            - want to learn Data Analysis & Data Science to perform meaningful and impactful Analysis
+            - and working with Excel and found themelves thinking, " there has to be a better way"
             
-            If this sounds interesting to you, consider schedulingand turning on the notifications co yo do not miss any content
-            ...
+            If this sounds interesting to you, consider scheduling and turning on the notifications so you do not miss any content
+            """
         )
-        st.write("[My YouTube Channel>](htpps://pythonandvba.com/solutions)")
+        st.write("[My YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+
+        
         
