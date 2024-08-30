@@ -67,12 +67,12 @@ with st.container():
         st.subheader("Integrate Lottie Animations Inside your Streamlit App")
         st.write(
             """
-            Learn how to ue Lottie files in Streamlit!
-            Animationmake our web app more engaging and fun, and Lottie Files are the easiest way to do 
+            Learn how to ue Lottie files in Streamlit?
+            Animationmake our web app more engaging and fun, and Lottie Files are the easiest way to do it!
             In this tutorial, I"will show you exactly how to do it
             """
         )
-        st.markdown("[Watch Video...](https://youtube/TXSOitGoINE)")
+        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)") #https://youtu.be/TXSOitGoINE
 
 
 with st.container():
@@ -85,7 +85,8 @@ with st.container():
         st.subheader("How to Add A Contact Form to your streamlit App")
         st.write(
             """
-            Want to adda contact form to your Streamlit Website?
+            Want to add a contact form to your Streamlit Website!
             In this video, I'm going to show youhow to implementa contact form to your streamlit App using
             """
         )
+        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")    
