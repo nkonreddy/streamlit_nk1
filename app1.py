@@ -94,3 +94,28 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")    
+
+
+
+#....Contact....
+with st.container():
+    st.write("---")
+    st.header("Get In Touch With Me!")
+    st.write("##")
+
+    # Documentation: https://formsubmit.co !! Change email Address!!
+    contact_form = """
+    <input type ="hidden" name="-captch" valur="false">
+    <form action="https://formsubmit.co/nkonreddy@yahoo.com" method="POST">
+     <input type="text" name="name" placeholder="Your Name"required>
+     <input type="email" name="email" placeholder="Your email"required>
+     <textarea name ="message" placeholder="Your message here" required></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+left_column, right_column = st.columns(2)
+with left_column:
+    st.markdown(contact_form, unsafe_allow_html=True)
+with right_column:
+    st.empty()
+
